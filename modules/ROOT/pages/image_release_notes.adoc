@@ -1,13 +1,13 @@
-== Image Release Notes
+= Image Release Notes
 
-=== Controller Images: AWS AMI – Version 110421 (11/8/2021)
+== Controller Images: AWS AMI Version 110421 (11/8/2021)
 
 * Added support for AWS IMDSv2.
 * Corrected issue with the Aviatrix Controller initialization hanging
 after image migrating to a new image.
 * Closed potential vulnerability in Ubuntu.
 
-=== Controller Images: AWS AMI – Version 100621 (10/13/2021)
+== Controller Images: AWS AMI Version 100621 (10/13/2021)
 
 This release addresses vulnerabilities fixed by Apache version 2.4.51.
 
@@ -19,7 +19,7 @@ and vulnerabilities closed in previous Apache releases.
 * Controller image version 100621 closes a potential denial-of-service
 vulnerability and corrects an issue with launching controller HA.
 
-=== Gateway Images: hvm-cloudx-aws- 022021, hvm-cloudx-aliyun-122520 (5/10/2021)
+== Gateway Images: hvm-cloudx-aws- 022021, hvm-cloudx-aliyun-122520 (5/10/2021)
 
 * R6.4.2499 Software Version is required
 * Support new IPSec encryption mechanism
@@ -27,7 +27,7 @@ vulnerability and corrects an issue with launching controller HA.
 * Introduced the gateway in AWS China and Ali Cloud
 * Fix and pass vulnerabilities scan to Feb/2021
 
-=== Controller Images: AWS AMI – 050120 (8/17/2020)
+== Controller Images: AWS AMI – 050120 (8/17/2020)
 
 * R6.1.1280 Software Version is required
 * Update Linux kernel and packages versions
@@ -35,7 +35,7 @@ vulnerability and corrects an issue with launching controller HA.
 * Set X-XSS-Protection and X-Content-Type-Options by default
 * Fix all vulnerabilities up to Jun/2020 (mid ref: 15727)
 
-=== Gateway Images: hvm-cloudx-aws-102320 (11/10/2020)
+== Gateway Images: hvm-cloudx-aws-102320 (11/10/2020)
 
 * R6.2.1837 Software Version is required
 * New image fetch mechanism
