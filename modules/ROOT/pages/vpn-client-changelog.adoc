@@ -1,3 +1,48 @@
 = Aviatrix VPN Client Changelog
 
+== 2.14.14 April 27 2021
+* Support non-ASCII Windows user login account
+* Support non-ASCII VPN connection profile name on the client UI
+* Support Ubuntu 20.04.01 deb format installer
+* Enhance the Windows client security https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31776
+
+== 2.13.12 Jan 28 2021
+* Provide a MD5 checksum along with every single installer
+* Support MacOS Big Sur
+* Verify the settings before exiting the Settings UI
+
+== 2.12.10 September 3 2020
+* Support Ubuntu 20.04 FIPS
+* A toggle to support Cisco Umbrella DNS servers or the VPC DNS servers on MacOS
+* Support multiple MacOS system login accounts
+* Allow override of manually set DNS flag to be enabled by default on MacOS
+
+== 2.11.6 July 22 2020
+* OpenSSL lib of the MacOS client is updated to 1.1.11g
+* OpenSSL lib of the Windows client is updated to 1.1.11f
+* Enhance the security to prevent Man-in-the-middle attack
+* Boost the Windows client data throughput
+* Improve the connectivity of the MacOS client under the unstable WiFi connection
+* Improve the connectivity of the Windows client under the high data throughput
+* New clients to support Ubuntu 20.4 LTS
+
+== 2.10.8  May 14 2020
+* Address client vulnerabilities of elevation in privilege and arbitrary file write.
+
+== 2.9.6  April 23 2020
+* Support displaying system use notifications
+
+
+== 2.8.2 April 10 2020
+* Boost VPN throughput
+
+
+== 2.7.9  March 4 2020
+* UI enhancements for password-based authentication
+* Support the OVPN parameter: 'route'
+* Fixed issue where tray icon sometimes did not accurately reflect the VPN status
+* Fixed issue where VPN client becomes unresponsive if quit from the MacOS taskbar
+* VPN client will now no longer erroneously prompt for another authentication retry after previous fail
+* Fixed issue where the old VPN client will not quit, and crashes, if not uninstalled prior to the installation of a newer client
+
 OpenVPN is a registered trademark of OpenVPN Inc.
