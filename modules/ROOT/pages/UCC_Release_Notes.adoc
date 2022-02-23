@@ -788,8 +788,7 @@ the reply traffic is not returned through the eth2 MGMT interface.
 Controller or CoPilot, an exception may occur because the request is in
 replica mode and incorrectly tries to update the Mongo DB.
 
-Security Note 6.2.2043, 6.3.2490, 6.4.2838, and 6.5.1922 (9/11/2021)
-===================================================================
+== Security Note 6.2.2043, 6.3.2490, 6.4.2838, and 6.5.1922 (9/11/2021)
 
 *Subject*: Security release for Aviatrix versions 6.5, 6.4, 6.3, and
 6.2.
