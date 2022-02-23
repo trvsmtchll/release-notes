@@ -1,0 +1,25 @@
+= Aviatrix Release Notes
+
+Migrated the following files from Aviatrix docs using pandoc.
+
+Files located in ./HowTos
+
+* install pandoc... brew install pandoc
+* convert file(s)... pandoc -s field_notices.rst -t asciidoc -o field_notices.adoc
+* converting the files takes moments (can be scripted)
+
+== Release Note Files
+
+Grab the *.rst and run pandoc command above
+
+* UCC_Release_Notes.adoc
+* field_notices.adoc
+* image_release_notes.adoc
+* changelog -> vpn-client-changelog.adoc
+
+== Copyright and License
+
+Copyright (C) 2017-present by OpenDevise Inc. and the individual contributors to Antora.
+
+Use of this software is granted under the terms of the https://www.mozilla.org/en-US/MPL/2.0/[Mozilla Public License Version 2.0] (MPL-2.0).
+See link:LICENSE[] to find the full license text.

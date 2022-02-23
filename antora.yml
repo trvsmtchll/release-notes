@@ -1,0 +1,10 @@
+name: release-notes
+title: Release Notes
+version: 6.6
+start_page: ROOT:UCC_Release_Notes.adoc
+asciidoc:
+  attributes:
+    source-language: asciidoc@
+    table-caption: false
+nav:
+- modules/ROOT/nav.adoc
